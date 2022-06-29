@@ -4,4 +4,11 @@ let age = prompt('Enter Your Grade')
 alert('Grade')
 
 console.log(age)
-console.log('Grade')
+
+console.log("%cGrade", "color: orange");
+let baseStyles = [
+    "color: #fff",
+    "background-color: #444",
+    "padding: 2px 4px",
+    "border-radius: 2px"
+  ].join(";");
